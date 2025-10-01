@@ -53,16 +53,14 @@ O projeto segue a **convenção do Maven**:
 
 projeto-testng/
 ├─ pom.xml # arquivo obrigatório do Maven
-├─ testng.xml # arquivo de configuração do TestNG (opcional, mas recomendado)
+├─ testng.xml # arquivo de configuração do TestNG
 ├─ src/
 │ ├─ main/
 │ │ └─ java/
-│ │ └─ br/edu/idp/exemplo/
-│ │ └─ Triangulo.java # código principal (se houver lógica de app)
+│ │ └─ Triangulo.java # código principal
 │ └─ test/
 │ └─ java/
-│ └─ br/edu/idp/exemplo/
-│ └─ TestTriangulo.java # código de teste (com TestNG)
+│ └─ TestTriangulo.java # código de teste
 
 ---
 
