@@ -1,4 +1,4 @@
-package br.edu.idp.stsw.unittest;
+package example;
 
 public final class Triangulo {
 

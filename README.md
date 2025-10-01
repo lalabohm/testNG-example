@@ -51,17 +51,6 @@ O **TestNG (Test Next Generation)** é um framework de testes inspirado no JUnit
 
 O projeto segue a **convenção do Maven**:
 
-projeto-testng/
-├─ pom.xml # arquivo obrigatório do Maven
-├─ testng.xml # arquivo de configuração do TestNG
-├─ src/
-│ ├─ main/
-│ │ └─ java/
-│ │ └─ Triangulo.java # código principal
-│ └─ test/
-│ └─ java/
-│ └─ TestTriangulo.java # código de teste
-
 ---
 
 ## Como executar
