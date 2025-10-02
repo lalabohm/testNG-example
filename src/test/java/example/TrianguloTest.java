@@ -1,49 +1,64 @@
-package exemplo;
+package example;
 
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class TrianguloTest {
 
-    @DataProvider
-    public Object[][] dpEquilatero() {
-        return new Object[][] {
-                { 5, 5, 5, "Equilátero" },
-                { 10, 10, 10, "Equilátero" }
-        };
+    @BeforeSuite
+    public void beforeSuite() {
+        System.out.println("🔹 Início da Suíte de Testes do Triângulo");
     }
 
-    @DataProvider
-    public Object[][] dpIsosceles() {
-        return new Object[][] {
-                { 5, 5, 3, "Isósceles" },
-                { 7, 4, 7, "Isósceles" },
-                { 6, 8, 8, "Isósceles" }
-        };
+    @AfterSuite
+    public void afterSuite() {
+        System.out.println("🔹 Fim da Suíte de Testes do Triângulo");
     }
 
-    @DataProvider
-    public Object[][] dpEscaleno() {
-        return new Object[][] {
-                { 3, 4, 5, "Escaleno" },
-                { 7, 8, 9, "Escaleno" },
-                { 10, 12, 15, "Escaleno" }
-        };
+    @BeforeClass
+    public void beforeClass() {
+        System.out.println("➡ Preparando a classe de testes");
     }
 
-    @Test(dataProvider = "dpEquilatero")
-    public void deveClassificarEquilatero(int a, int b, int c, String esperado) {
-        Assert.assertEquals(Triangulo.classificar(a, b, c), esperado);
+    @AfterClass
+    public void afterClass() {
+        System.out.println("⬅ Finalizando a classe de testes");
     }
 
-    @Test(dataProvider = "dpIsosceles")
-    public void deveClassificarIsosceles(int a, int b, int c, String esperado) {
-        Assert.assertEquals(Triangulo.classificar(a, b, c), esperado);
+    @BeforeMethod
+    public void beforeMethod() {
+        System.out.println("👉 Iniciando método de teste");
     }
 
-    @Test(dataProvider = "dpEscaleno")
-    public void deveClassificarEscaleno(int a, int b, int c, String esperado) {
-        Assert.assertEquals(Triangulo.classificar(a, b, c), esperado);
+    @AfterMethod
+    public void afterMethod() {
+        System.out.println("👈 Finalizando método de teste");
+    }
+
+    // ==== Testes básicos ====
+
+    @Test(priority = 1, groups = "basico")
+    public void deveClassificarEquilatero() {
+        Assert.assertEquals(Triangulo.classificar(5, 5, 5), "Equilátero");
+    }
+
+    @Test(priority = 2, groups = "basico")
+    public void deveClassificarIsosceles() {
+        Assert.assertEquals(Triangulo.classificar(5, 5, 3), "Isósceles");
+    }
+
+    @Test(priority = 3, groups = "basico")
+    public void deveClassificarEscaleno() {
+        Assert.assertEquals(Triangulo.classificar(4, 5, 6), "Escaleno");
+    }
+
+    @Test(priority = 4, groups = "basico")
+    public void deveDetectarNaoTriangulo() {
+        Assert.assertEquals(Triangulo.classificar(1, 2, 3), "Não é triangulo");
+    }
+
+    @Test(priority = 5, groups = "basico")
+    public void deveDetectarLadosInvalidos() {
+        Assert.assertEquals(Triangulo.classificar(0, 5, 5), "Lados inválidos");
     }
 }

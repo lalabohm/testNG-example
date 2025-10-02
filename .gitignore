@@ -1,0 +1,22 @@
+# Arquivos/pastas gerados pelo Maven
+target/
+*.log
+
+# Relatórios de teste
+surefire-reports/
+test-output/
+
+# Arquivos de configuração locais de IDEs
+*.iml
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+
+# Compilados Java
+*.class
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-02T18:06:14 BRT" name="SuiteTriangulo" finished-at="2025-10-02T18:06:14 BRT" duration-ms="419">
+    <groups>
+      <group name="basico">
+        <method signature="TrianguloTest.deveClassificarEquilatero()[pri:1, instance:example.TrianguloTest@7adda9cc]" name="deveClassificarEquilatero" class="example.TrianguloTest"/>
+        <method signature="TrianguloTest.deveClassificarIsosceles()[pri:2, instance:example.TrianguloTest@7adda9cc]" name="deveClassificarIsosceles" class="example.TrianguloTest"/>
+        <method signature="TrianguloTest.deveClassificarEscaleno()[pri:3, instance:example.TrianguloTest@7adda9cc]" name="deveClassificarEscaleno" class="example.TrianguloTest"/>
+        <method signature="TrianguloTest.deveDetectarNaoTriangulo()[pri:4, instance:example.TrianguloTest@7adda9cc]" name="deveDetectarNaoTriangulo" class="example.TrianguloTest"/>
+        <method signature="TrianguloTest.deveDetectarLadosInvalidos()[pri:5, instance:example.TrianguloTest@7adda9cc]" name="deveDetectarLadosInvalidos" class="example.TrianguloTest"/>
+      </group> <!-- basico -->
+    </groups>
+    <test started-at="2025-10-02T18:06:14 BRT" name="TestesBasicosTriangulo" finished-at="2025-10-02T18:06:14 BRT" duration-ms="419">
+      <class name="example.TrianguloTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeSuite" finished-at="2025-10-02T18:06:14 BRT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeClass" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deveClassificarEquilatero()[pri:1, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="deveClassificarEquilatero" finished-at="2025-10-02T18:06:14 BRT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveClassificarEquilatero -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deveClassificarIsosceles()[pri:2, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="deveClassificarIsosceles" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveClassificarIsosceles -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="deveClassificarEscaleno()[pri:3, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="deveClassificarEscaleno" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveClassificarEscaleno -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deveDetectarNaoTriangulo()[pri:4, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="deveDetectarNaoTriangulo" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveDetectarNaoTriangulo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="beforeMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deveDetectarLadosInvalidos()[pri:5, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="deveDetectarLadosInvalidos" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveDetectarLadosInvalidos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterMethod" finished-at="2025-10-02T18:06:14 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:14 BRT" name="afterClass" finished-at="2025-10-02T18:06:14 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:example.TrianguloTest@7adda9cc]" started-at="2025-10-02T18:06:15 BRT" name="afterSuite" finished-at="2025-10-02T18:06:15 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- example.TrianguloTest -->
+    </test> <!-- TestesBasicosTriangulo -->
+  </suite> <!-- SuiteTriangulo -->
+</testng-results>

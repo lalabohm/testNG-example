@@ -2,49 +2,43 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <!-- Identificação do projeto -->
-  <groupId>exemplo</groupId>
-  <artifactId>meu-projeto-testng</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>meu-projeto-testng</name>
+    <groupId>br.edu.idp</groupId>
+    <artifactId>triangulo-testng</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-  <!-- Configuração do compilador -->
-  <properties>
-    <maven.compiler.release>17</maven.compiler.release> <!-- versão do Java -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <testng.version>7.10.2</testng.version>
-    <surefire.version>3.2.5</surefire.version>
-  </properties>
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testng.version>7.10.2</testng.version>
+    </properties>
 
-  <!-- Dependências -->
-  <dependencies>
-    <!-- TestNG -->
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>${testng.version}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <!-- Dependência do TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
-  <!-- Plugins -->
-  <build>
-    <plugins>
-      <!-- Plugin para rodar os testes -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${surefire.version}</version>
-        <configuration>
-          <!-- opcional: se tiver testng.xml -->
-          <!-- <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles> -->
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
+    <build>
+        <plugins>
+            <!-- Plugin para rodar os testes com Maven -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
