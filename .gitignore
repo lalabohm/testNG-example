@@ -1,15 +1,20 @@
-# Arquivos/pastas gerados pelo Maven
+# Maven build directory
 target/
-*.log
 
-# Arquivos de configuração locais de IDEs
-*.iml
-.idea/
-.vscode/
+# Eclipse
 .classpath
 .project
 .settings/
 
-# Compilados Java
+# VS Code
+.vscode/
+
+# Java compiled files
 *.class
 
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
