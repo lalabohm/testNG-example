@@ -1,6 +1,14 @@
 # Maven build directory
 target/
 
+# Test reports
+surefire-reports/
+test-output/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
 # Eclipse
 .classpath
 .project
@@ -18,3 +26,4 @@ target/
 # OS files
 .DS_Store
 Thumbs.db
+
