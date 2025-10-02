@@ -2,10 +2,6 @@
 target/
 *.log
 
-# Relatórios de teste
-surefire-reports/
-test-output/
-
 # Arquivos de configuração locais de IDEs
 *.iml
 .idea/
@@ -17,6 +13,3 @@ test-output/
 # Compilados Java
 *.class
 
-# Sistema operacional
-.DS_Store
-Thumbs.db
