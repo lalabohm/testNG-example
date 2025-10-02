@@ -1,29 +1,12 @@
 # Maven build directory
 target/
 
-# Test reports
-surefire-reports/
-test-output/
-
-# IntelliJ IDEA
-*.iml
-.idea/
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# VS Code
-.vscode/
-
-# Java compiled files
+# Compiled Java classes
 *.class
 
 # Logs
 *.log
 
-# OS files
+# OS / editor files
 .DS_Store
 Thumbs.db
-
