@@ -7,35 +7,33 @@ public class TrianguloTest {
 
     @BeforeSuite
     public void beforeSuite() {
-        System.out.println("🔹 Início da Suíte de Testes do Triângulo");
+        System.out.println("Início da Suíte de Testes do Triângulo");
     }
 
     @AfterSuite
     public void afterSuite() {
-        System.out.println("🔹 Fim da Suíte de Testes do Triângulo");
+        System.out.println("Fim da Suíte de Testes do Triângulo");
     }
 
     @BeforeClass
     public void beforeClass() {
-        System.out.println("➡ Preparando a classe de testes");
+        System.out.println("Preparando a classe de testes");
     }
 
     @AfterClass
     public void afterClass() {
-        System.out.println("⬅ Finalizando a classe de testes");
+        System.out.println("Finalizando a classe de testes");
     }
 
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("👉 Iniciando método de teste");
+        System.out.println("Iniciando método de teste");
     }
 
     @AfterMethod
     public void afterMethod() {
-        System.out.println("👈 Finalizando método de teste");
+        System.out.println("Finalizando método de teste");
     }
-
-    // ==== Testes básicos ====
 
     @Test(priority = 1, groups = "basico")
     public void deveClassificarEquilatero() {
